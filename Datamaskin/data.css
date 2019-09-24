@@ -5,3 +5,7 @@ article {
 article > h1 {
     color: blue
 }
+
+img {
+  height: 200px;
+}
