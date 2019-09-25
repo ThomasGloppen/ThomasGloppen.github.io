@@ -9,3 +9,12 @@ article > h1 {
 img {
   height: 200px;
 }
+
+button {
+  background-color: chartreuse;
+  color: red;
+  border-radius: 10px;
+  height: 50px;
+  width: 120px;
+  font-size: 2em;
+}
