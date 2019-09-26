@@ -1,46 +1,126 @@
 #cpu {
-    left: 100px;
+    left: 200px;
     top: 50px;
-    background-color: bisque;
-    width: 350px;
-    height: 350px;
+    background-color: rgb(255, 210, 196);
+    width: 360px;
+    height: 360px;
     border: solid black 2px;
     border-radius: 10px;
 }
 
 #controll {
-
+position: absolute;
+left: 34%;
+top: 10%;
+width: 32%;
+height: 20%;
+background-color: rgb(146, 180, 243);
+border: solid black 2px;
 }
 
 #processor {
-
+position: absolute;
+left: 25%;
+top: 40%;
+width: 50%;
+height: 50%;
+border-radius: 10px;
+background-color: rgb(238, 229, 147);
+border: solid black 2px;
 }
 
 #registers {
-
+position: absolute;
+left: 20%;
+top: 20%;
+width: 60%;
+height: 25%;
+background-color: rgb(146, 180, 243);
+border: solid black 2px;
 }
 
 #alu {
-
+position: absolute;
+left: 20%;
+top: 55%;
+width: 60%;
+height: 35%;
+background-color: rgb(146, 180, 243);
+border: solid black 2px;
 }
 
 #memory {
-
+position: absolute;
+left: 120px;
+top: 380px;
+width: 120px;
+height: 70px;
+background-color: rgb(146, 180, 243);
+border: solid black 2px;
 }
 
 #input {
-
+position: absolute;
+top: 80%;
+left: -30%;
+width: 20%;
+height: 13%;
+background-color: rgb(146, 180, 243);
+border: solid black 2px;
 }
 
 #output {
-
+    position: absolute;
+    top: 80%;
+    left: 110%;
+    width: 20%;
+    height: 13%;
+    background-color: rgb(146, 180, 243);
+    border: solid black 2px;
 }
 
 .firkant {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100px;
-    height: 100px;
+    width: 25px;
+    height: 25px;
     background-color: green;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.pil {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0;
+    top: 0;
+}
+
+.oh {
+    border-top: solid red 2px;
+    border-right: solid red 2px;
+}
+
+.ov {
+    border-top: solid red 2px;
+    border-left: solid red 2px;
+}
+
+div.pil:nth-child(1) {
+    left: 444px;
+    top: 120px;
+    width: 192px;
+    height: 218px;
+}
+
+div.pil:nth-child(2) {
+    left: 130px;
+    top: 120px;
+    width: 192px;
+    height: 218px;
 }
