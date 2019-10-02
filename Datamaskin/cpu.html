@@ -7,20 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CPU</title>
     <link rel="stylesheet" href="cpu.css">
+    <script src="piler.js"></script>
+    <script src="cpu.js"></script>
 </head>
 
 <body>
+    <div id="skisse">
     <div class="firkant" id="cpu">
         <p>CPU</p>
-        <div class="firkant" id="controll">
+        <div class="firkant" id="controll" data-more="controll" data-info="Controll unit">
             <p>Control <br> Unit</p>
         </div>
         <div class="firkant" id="processor">
             <p>Processor</p>
-            <div class="firkant" id="registers">
+            <div class="firkant" id="registers" data-more="register" 
+            data-info='Prosessorens arbeidsminne.    Typisk 8bit for tidlige cpuer, nå 64bit'>
                 <p>Registers</p>
             </div>
-            <div class="firkant" id="alu">
+            <div class="firkant" id="alu" data-more="alu" data-info="Beregninger og logikk">
                 <p>Combinational <br> Logic</p>
             </div>
         </div>
@@ -41,6 +45,10 @@
     <div class="pil nv"></div>
     <div class="pil ohn"></div>
 </div>
+</div>
+<script>
+        setup();
+    </script>
 </body>
 
 </html>
