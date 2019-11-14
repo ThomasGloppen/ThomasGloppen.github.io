@@ -9,3 +9,23 @@ article > h1 {
 img {
   height: 200px;
 }
+
+td, th,
+table {
+    border: solid gray 1px;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(177, 223, 130);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(170, 238, 103);
+}
+
+thead {
+  background-color: rgb(47, 255, 203);
+}
