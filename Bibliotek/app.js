@@ -1,6 +1,6 @@
 // @ts-check
 
-const CONNECTSTRING = "postgres://butikk:123@localhost/butikk";
+const CONNECTSTRING = "postgres://thomasgloppen@localhost/bib";
 
 const PORT = 3000;
 
