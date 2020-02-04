@@ -1,0 +1,31 @@
+#main {
+    display: grid;
+    grid-template-columns: 2fr 8fr 3fr;
+    width: 800px;
+    height: 600px;
+    border: solid gray 2px;
+
+    grid-template-areas:
+    "a . c"
+    "a . c"
+    "a b c"
+    "a b c"
+    "a . ."
+    "a . ."
+    "a . ."
+}
+
+#a {
+    background-color: blue;
+    grid-area: a;
+}
+
+#b {
+    background-color: red;
+    grid-area: b;
+}
+
+#c {
+    background-color: yellow;
+    grid-area: c;
+}

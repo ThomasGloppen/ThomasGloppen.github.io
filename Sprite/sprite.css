@@ -1,0 +1,33 @@
+#game {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  border: solid 1px gray;
+  background-color:#E5E5E5;
+}
+
+#game div {
+  position: absolute;
+}
+
+.tree {
+  width: 5px;
+  height: 25px;
+  background-color: teal;
+}
+
+.bird {
+  width: 50px;
+  height: 50px;
+  background-image: url(santa.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.fly {
+  width: 25px;
+  height: 25px;
+  background-image: url(kid4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
